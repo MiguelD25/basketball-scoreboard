@@ -6,7 +6,9 @@ body {
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    background: #1c1c21;
+    background: url(basketballCourt.jpg);
+    background-size:cover;
+    background-position: bottom;
     
 }
 
@@ -16,6 +18,10 @@ body {
     display: flex;
     justify-content: space-around;
     background: #1B244A;
+    border-radius: 20px;
+    border-style:  dashed double none;
+    border-color: green;;
+    border-width: 5px;
     
     
 }
